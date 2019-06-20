@@ -1,0 +1,22 @@
+{
+  "name": "imageCrawler",
+  "version": "1.0.0",
+  "description": "Image crawler for Decathlon UK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thrynk/image-crawler.git"
+  },
+  "author": "Thomas CARIN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thrynk/image-crawler/issues"
+  },
+  "homepage": "https://github.com/Thrynk/image-crawler#readme",
+  "dependencies": {
+    "image-crawler": "^1.0.1"
+  }
+}
