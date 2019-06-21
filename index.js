@@ -33,6 +33,7 @@ var testImgStatus = function(imgUrl){
 sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xml').then(function(sites) {
     /*sites.sites.forEach(function(site){*/
     for(let i = 0; i < 3; i++){
+        console.log(i+1);
         imgsUrlCrawler(sites.sites[i]).then(function (imgUrls) {
             imgUrls.forEach(function (imgUrl) {
                 setTimeout(function(){
