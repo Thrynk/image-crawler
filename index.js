@@ -44,7 +44,7 @@ function testImgStatus(imgUrl){
 
 sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xml').then(function(sites) {
     /*sites.sites.forEach(function(site){*/
-    for(let i = 19; i < 30; i++){
+    for(let i = 0; i < 1; i++){
         imgsUrlCrawler(sites.sites[i]).then(async function (imgUrls) {
             for (let j = 0; j < imgUrls.length; j++) {
                 if(imgUrls[j].match(/skins/) === null){
