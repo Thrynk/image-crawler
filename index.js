@@ -35,9 +35,9 @@ function testImgStatus(imgUrl){
 
 sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xml').then(function(sites) {
     /*sites.sites.forEach(function(site){*/
-    for(let i = 0; i < 10; i++){
-        console.log(i+1);
+    for(let i = 0; i < 3; i++){
         imgsUrlCrawler(sites.sites[i]).then(async function (imgUrls) {
+            console.log(i+1);
             for (let j = 0; j < imgUrls.length; j++) {
                 await testImgStatus(imgUrls[j]).then(function(sentenceToLog){
                     console.log(sentenceToLog);
@@ -49,3 +49,5 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
     }
     /*});*/
 });
+
+console.log("finished");
