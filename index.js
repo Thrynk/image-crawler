@@ -41,7 +41,7 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
                 await testImgStatus(imgUrls[j]).then(function(sentenceToLog){
                     console.log(sentenceToLog);
                 }).catch(function(error){
-                    console.log(error);
+                    console.log("error");
                 });
             }
         });
