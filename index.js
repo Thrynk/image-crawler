@@ -57,6 +57,8 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
                     });
                 }
             }
+        }).catch(function(error){
+            console.log("Error getting img urls");
         });
     }
     /*});*/
