@@ -8,7 +8,7 @@ function testImgStatus(imgUrl){
     return new Promise(function(resolve, reject){
         imgUrl = imgUrl.replace("../", "");
         request(
-            "https://decathlon.co.uk/" + imgUrl,
+            "https://decathlon.co.uk" + imgUrl,
             {
                 originalHostHeaderName: 'Host'
             },
@@ -16,7 +16,7 @@ function testImgStatus(imgUrl){
                 if(!error){
                     if (response && response.statusCode === 404) {
                         resolve({
-                            message: "https://decathlon.co.uk/" + imgUrl,
+                            message: "https://decathlon.co.uk" + imgUrl,
                             status: 404
                         });
                     }
