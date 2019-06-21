@@ -4,43 +4,47 @@ const request = require("request");
 
 var sitemap = new Sitemapper();
 
-var testImgStatus = function(imgUrl){
-    imgUrl = imgUrl.replace("../", "");
-    request(
-        "https://decathlon.co.uk/" + imgUrl,
-        {
-            originalHostHeaderName: 'Host'
-        },
-        function (error, response, body) {
-            if(!error){
-                if (response && response.statusCode === 404) {
-                    console.log("https://decathlon.co.uk/" + imgUrl);
+function testImgStatus(imgUrl){
+    return new Promise(function(resolve, reject){
+        imgUrl = imgUrl.replace("../", "");
+        request(
+            "https://decathlon.co.uk/" + imgUrl,
+            {
+                originalHostHeaderName: 'Host'
+            },
+            function (error, response, body) {
+                if(!error){
+                    if (response && response.statusCode === 404) {
+                        reject("Not found : https://decathlon.co.uk/" + imgUrl);
+                    }
+                    else if(response && response.statusCode === 400){
+                        reject("Bad request : https://decathlon.co.uk/" + imgUrl);
+                    }
+                    else{
+                        resolve("Image OK : https://decathlon.co.uk/" + imgUrl);
+                    }
                 }
-                else if(response && response.statusCode === 400){
-                    console.log("Bad request : https://decathlon.co.uk/" + imgUrl);
-                }
-                else{
-                    console.log("Image OK : https://decathlon.co.uk/" + imgUrl);
+                else {
+                    reject(error);
                 }
             }
-            else {
-                console.log(error);
-            }
-        }
-    );
-};
+        );
+    });
+
+}
 
 sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xml').then(function(sites) {
     /*sites.sites.forEach(function(site){*/
     for(let i = 0; i < 10; i++){
         console.log(i+1);
-        imgsUrlCrawler(sites.sites[i]).then(function (imgUrls) {
-            imgUrls.forEach(function (imgUrl) {
-                setTimeout(function(){
-                    testImgStatus(imgUrl);
-                }, 1500);
-
-            });
+        imgsUrlCrawler(sites.sites[i]).then(async function (imgUrls) {
+            for (let j = 0; j < imgUrls.length; j++) {
+                await testImgStatus(imgUrls[j]).then(function(sentenceToLog){
+                    console.log(sentenceToLog);
+                }).catch(function(error){
+                    console.log(error);
+                });
+            }
         });
     }
     /*});*/
