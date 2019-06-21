@@ -16,7 +16,7 @@ function testImgStatus(imgUrl){
                 if(!error){
                     if (response && response.statusCode === 404) {
                         resolve({
-                            message: "Not found : https://decathlon.co.uk/" + imgUrl,
+                            message: "https://decathlon.co.uk/" + imgUrl,
                             status: 404
                         });
                     }
@@ -44,7 +44,7 @@ function testImgStatus(imgUrl){
 
 sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xml').then(function(sites) {
     /*sites.sites.forEach(function(site){*/
-    for(let i = 9; i < 20; i++){
+    for(let i = 19; i < 30; i++){
         imgsUrlCrawler(sites.sites[i]).then(async function (imgUrls) {
             for (let j = 0; j < imgUrls.length; j++) {
                 if(imgUrls[j].match(/skins/) === null){
