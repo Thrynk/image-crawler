@@ -6,7 +6,7 @@ var sitemap = new Sitemapper();
 
 sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xml').then(function(sites) {
     /*sites.sites.forEach(function(site){*/
-    for(var i = 0; i < 50; i++){
+    for(var i = 0; i < 3; i++){
         imgsUrlCrawler(sites.sites[i]).then(function (imgUrls) {
             imgUrls.forEach(function (imgUrl) {
                 imgUrl = imgUrl.replace("../", "");
