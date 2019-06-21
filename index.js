@@ -38,7 +38,7 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
     for(let i = 0; i < 100; i++){
         imgsUrlCrawler(sites.sites[i]).then(async function (imgUrls) {
             for (let j = 0; j < imgUrls.length; j++) {
-                if(imgUrls[j].match(/skins/) !== null){
+                if(imgUrls[j].match(/skins/) === null){
                     await testImgStatus(imgUrls[j]).then(function(sentenceToLog){
                         console.log(sentenceToLog);
                     }).catch(function(error){
