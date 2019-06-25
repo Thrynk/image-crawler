@@ -2,3 +2,5 @@ node_modules/
 package-lock.json
 .idea/
 sitemap.xml
+token.json
+.env

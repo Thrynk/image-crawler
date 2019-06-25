@@ -1,6 +1,7 @@
 const Sitemapper = require('sitemapper');
 const imgsUrlCrawler = require("./imgsUrl");
 const request = require("request");
+const {google} = require('googleapis');
 
 var sitemap = new Sitemapper();
 
@@ -43,23 +44,54 @@ function testImgStatus(imgUrl){
 }
 
 sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xml').then(function(sites) {
-    /*sites.sites.forEach(function(site){*/
-    for(let i = 0; i < 100; i++){
+    let brokenImgUrls = new Array();
+    for(let i = 33; i < 37; i++){
         imgsUrlCrawler(sites.sites[i]).then(async function (imgUrls) {
             for (let j = 0; j < imgUrls.length; j++) {
                 if(imgUrls[j].match(/skins/) === null){
                     await testImgStatus(imgUrls[j]).then(function(response){
                         if(response.status === 404){
-                            console.log(response.message);
+                            brokenImgUrls.push(response.message);
                         }
                     }).catch(function(error){
                         console.log(error);
                     });
                 }
             }
+            return brokenImgUrls;
+        }).then(function(brokenImgUrls) {
+            console.log(brokenImgUrls);
+            console.log(brokenImgUrls.length);
         }).catch(function(error){
             console.log("Error getting img urls");
         });
     }
-    /*});*/
 });
+
+const spreadSheetAPI = require("./spreadsheetAPIAuth");
+
+let credentials = require("./credentials");
+
+let spreadsheetId = "1fAawZjTw4LmugGcL1kLpuqDJuLClUWPhYQdrpjf-b6E";
+
+function writeInSpreadsheet(auth) {
+    const sheets = google.sheets({version: 'v4', auth});
+    sheets.spreadsheets.values.get({
+        spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
+        range: 'Class Data!A2:E',
+    }, (err, res) => {
+        if (err) return console.log('The API returned an error: ' + err);
+        const rows = res.data.values;
+        if (rows.length) {
+            console.log('Name, Major:');
+            // Print columns A and E, which correspond to indices 0 and 4.
+            rows.map((row) => {
+                console.log(`${row[0]}, ${row[4]}`);
+            });
+        } else {
+            console.log('No data found.');
+        }
+    });
+}
+
+spreadSheetAPI.authorize(credentials, writeInSpreadsheet);
