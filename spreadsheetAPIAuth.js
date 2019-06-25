@@ -31,11 +31,14 @@ module.exports = {
             client_id, client_secret, redirect_uris[0]);
 
         // Check if we have previously stored a token.
-        fs.readFile(TOKEN_PATH, (err, token) => {
+        /*fs.readFile(TOKEN_PATH, (err, token) => {
             if (err) return getNewToken(oAuth2Client, callback);
             oAuth2Client.setCredentials(JSON.parse(token));
             callback(oAuth2Client);
-        });
+        });*/
+        let token = require("./token");
+         oAuth2Client.setCredentials(token);
+         callback(oAuth2Client);
     }
 
 }
@@ -46,7 +49,7 @@ module.exports = {
  * @param {google.auth.OAuth2} oAuth2Client The OAuth2 client to get token for.
  * @param {getEventsCallback} callback The callback for the authorized client.
  */
-function getNewToken(oAuth2Client, callback) {
+/*function getNewToken(oAuth2Client, callback) {
     const authUrl = oAuth2Client.generateAuthUrl({
         access_type: 'offline',
         scope: SCOPES,
@@ -69,7 +72,7 @@ function getNewToken(oAuth2Client, callback) {
             callback(oAuth2Client);
         });
     });
-}
+}*/
 
 /**
  * Prints the names and majors of students in a sample spreadsheet:
