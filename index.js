@@ -114,12 +114,12 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
     spreadSheetAPI.authorize(credentials, writeInSpreadsheet, brokenImgUrlLinksSiteWide);
 
     if(ExcelInfo.lastSiteTreated === 1100) {
-        fs.WriteFileSync("ExcelInfo.json", JSON.stringify({
+        fs.WriteFileSync(__dirname + "/ExcelInfo.json", JSON.stringify({
             lastSiteTreated: 0
         }));
     }
     else{
-        fs.WriteFileSync("ExcelInfo.json", JSON.stringify({
+        fs.WriteFileSync(__dirname + "/ExcelInfo.json", JSON.stringify({
             lastSiteTreated : ExcelInfo.lastSiteTreated + 2
         }));
     }
