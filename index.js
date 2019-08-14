@@ -2,14 +2,13 @@ const Sitemapper = require('sitemapper');
 const imgsUrlCrawler = require("./imgsUrl");
 const request = require("request");
 const {google} = require('googleapis');
-
-var sitemap = new Sitemapper();
+const fs = require("fs");
 
 function testImgStatus(imgUrl){
     return new Promise(function(resolve, reject){
         imgUrl = imgUrl.replace("../", "");
         request(
-            "https://decathlon.co.uk" + imgUrl,
+            "https://decathlon.co.uk/" + imgUrl,
             {
                 originalHostHeaderName: 'Host'
             },
@@ -17,7 +16,7 @@ function testImgStatus(imgUrl){
                 if(!error){
                     if (response && response.statusCode === 404) {
                         resolve({
-                            message: "https://decathlon.co.uk" + imgUrl,
+                            message: "https://decathlon.co.uk/" + imgUrl,
                             status: 404
                         });
                     }
@@ -35,7 +34,8 @@ function testImgStatus(imgUrl){
                     }
                 }
                 else {
-                    reject("Error request");
+                    console.log(imgUrl);
+                    reject({message: "Error request", error: error});
                 }
             }
         );
@@ -43,55 +43,132 @@ function testImgStatus(imgUrl){
 
 }
 
-sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xml').then(function(sites) {
-    let brokenImgUrls = new Array();
-    for(let i = 33; i < 37; i++){
-        imgsUrlCrawler(sites.sites[i]).then(async function (imgUrls) {
-            for (let j = 0; j < imgUrls.length; j++) {
-                if(imgUrls[j].match(/skins/) === null){
-                    await testImgStatus(imgUrls[j]).then(function(response){
-                        if(response.status === 404){
-                            brokenImgUrls.push(response.message);
-                        }
-                    }).catch(function(error){
-                        console.log(error);
-                    });
-                }
-            }
-            return brokenImgUrls;
-        }).then(function(brokenImgUrls) {
-            console.log(brokenImgUrls);
-            console.log(brokenImgUrls.length);
-        }).catch(function(error){
-            console.log("Error getting img urls");
-        });
+const _cliProgress = require('cli-progress');
+
+// create a new progress bar instance and use shades_classic theme
+const bar1 = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
+
+let ExcelInfo = JSON.parse(fs.readFileSync("ExcelInfo.json", "utf8"));
+console.log(ExcelInfo.lastSiteTreated);
+
+let scheduleObj = JSON.parse(fs.readFileSync("schedule.json", "utf8"));
+
+let execution = scheduleObj.schedule.find(function(range){
+    return range.rangeStart === ExcelInfo.lastSiteTreated;
+});
+
+let now = new Date();
+console.log(now.getUTCDay());
+if(now.getUTCDay() === execution.between.dayStart){
+    /*if(now.getUTCHours() === execution.between.hourStart){
+        console.log("go for it");
     }
+    else {
+        console.log("not the right hour");
+        process.exit();
+    }*/
+}
+else {
+    console.log("not the right day");
+    process.exit();
+}
+
+let brokenImgUrlLinksSiteWide = new Array();
+var sitemap = new Sitemapper();
+
+sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xml').then(async function (sites) {
+
+    let k = ExcelInfo.lastSiteTreated;
+    let brokenImgUrlsLink = new Array();
+    console.log(sites.sites[k]);
+    for(let i = 0; i < 2; i++) {
+        if (sites.sites[k+i]) {
+            let imgUrls = await imgsUrlCrawler(sites.sites[k+i]).catch(function (error) {
+                console.log("Error getting img urls");
+                console.log(error);
+            });
+            // start the progress bar with a total value of 200 and start value of 0
+            bar1.start(imgUrls.length, 0);
+            for (let j = 0; j < imgUrls.length; j++) {
+                if (imgUrls[j].match(/skins/) === null) {
+                    let response = await testImgStatus(imgUrls[j]).catch(function (error) {
+                        console.log(error.message);
+                        console.log(error.error);
+                    });
+
+                    if (response.status === 404) {
+                        brokenImgUrlsLink.push(response.message);
+                    }
+                }
+                // update the current value in your application..
+                bar1.update(j);
+            }
+            brokenImgUrlLinksSiteWide = brokenImgUrlLinksSiteWide.concat(brokenImgUrlsLink);
+            // stop the progress bar
+            bar1.stop();
+        } else {
+            console.log("Site Url invalid for request" + sites.sites[k]);
+        }
+    }
+    brokenImgUrlLinksSiteWide = brokenImgUrlLinksSiteWide.concat([1]);
+    spreadSheetAPI.authorize(credentials, writeInSpreadsheet, brokenImgUrlLinksSiteWide);
+    if(brokenImgUrlLinksSiteWide.length !== 0){
+        if(ExcelInfo.lastSiteTreated === 1100){
+            fs.WriteFile("ExcelInfo.json", JSON.stringify({
+                lastSiteTreated : 0
+            }), function(err){
+                if(err) console.log(err);
+            });
+        }
+        else{
+            fs.WriteFile("ExcelInfo.json", JSON.stringify({
+                lastSiteTreated : ExcelInfo.lastSiteTreated + 2
+            }), function(err){
+                if(err) console.log(err);
+            });
+        }
+
+    }
+
 });
 
 const spreadSheetAPI = require("./spreadsheetAPIAuth");
 
 let credentials = require("./credentials");
 
-let spreadsheetId = "1fAawZjTw4LmugGcL1kLpuqDJuLClUWPhYQdrpjf-b6E";
+let spreadsheetId = "1P02iuihmXmdm_obFkDe9bwgAOFwRTINV8M35NlhDcfk";
 
-function writeInSpreadsheet(auth) {
+function writeInSpreadsheet(auth, brokenImgs) {
+    console.log(brokenImgs);
     const sheets = google.sheets({version: 'v4', auth});
-    sheets.spreadsheets.values.get({
-        spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
-        range: 'Class Data!A2:E',
+    /*sheets.spreadsheets.values.get({
+        spreadsheetId: spreadsheetId,
+        range: 'Sheet1!A:A',
     }, (err, res) => {
         if (err) return console.log('The API returned an error: ' + err);
         const rows = res.data.values;
-        if (rows.length) {
-            console.log('Name, Major:');
-            // Print columns A and E, which correspond to indices 0 and 4.
-            rows.map((row) => {
-                console.log(`${row[0]}, ${row[4]}`);
-            });
+        console.log(rows);
+    });*/
+
+    let values = [];
+
+    brokenImgs.forEach(function(imgUrl){
+       values.push([imgUrl]);
+    });
+
+    sheets.spreadsheets.values.append({
+        spreadsheetId: spreadsheetId,
+        range: 'Sheet1!A:A',
+        valueInputOption: "RAW",
+        resource: {
+            values
+        }
+    }, (err, result) => {
+        if (err) {
+            // Handle error
+            console.log(err);
         } else {
-            console.log('No data found.');
+            console.log('cells updated.');
         }
     });
 }
-
-spreadSheetAPI.authorize(credentials, writeInSpreadsheet);

@@ -1,0 +1,4444 @@
+{
+  "schedule": [
+    {
+      "rangeStart": 0,
+      "rangeEnd": 2,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 2,
+      "rangeEnd": 4,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 4,
+      "rangeEnd": 6,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 6,
+      "rangeEnd": 8,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 8,
+      "rangeEnd": 10,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 10,
+      "rangeEnd": 12,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 12,
+      "rangeEnd": 14,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 14,
+      "rangeEnd": 16,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 16,
+      "rangeEnd": 18,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 18,
+      "rangeEnd": 20,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 20,
+      "rangeEnd": 22,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 22,
+      "rangeEnd": 24,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 24,
+      "rangeEnd": 26,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 26,
+      "rangeEnd": 28,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 28,
+      "rangeEnd": 30,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 30,
+      "rangeEnd": 32,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 32,
+      "rangeEnd": 34,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 34,
+      "rangeEnd": 36,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 36,
+      "rangeEnd": 38,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 38,
+      "rangeEnd": 40,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 40,
+      "rangeEnd": 42,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 42,
+      "rangeEnd": 44,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 44,
+      "rangeEnd": 46,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 46,
+      "rangeEnd": 48,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 48,
+      "rangeEnd": 50,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 50,
+      "rangeEnd": 52,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 52,
+      "rangeEnd": 54,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 54,
+      "rangeEnd": 56,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 56,
+      "rangeEnd": 58,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 58,
+      "rangeEnd": 60,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 60,
+      "rangeEnd": 62,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 62,
+      "rangeEnd": 64,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 64,
+      "rangeEnd": 66,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 66,
+      "rangeEnd": 68,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 68,
+      "rangeEnd": 70,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 70,
+      "rangeEnd": 72,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 72,
+      "rangeEnd": 74,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 74,
+      "rangeEnd": 76,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 76,
+      "rangeEnd": 78,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 78,
+      "rangeEnd": 80,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 80,
+      "rangeEnd": 82,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 82,
+      "rangeEnd": 84,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 84,
+      "rangeEnd": 86,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 86,
+      "rangeEnd": 88,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 88,
+      "rangeEnd": 90,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 90,
+      "rangeEnd": 92,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 92,
+      "rangeEnd": 94,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 94,
+      "rangeEnd": 96,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 96,
+      "rangeEnd": 98,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 98,
+      "rangeEnd": 100,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 100,
+      "rangeEnd": 102,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 102,
+      "rangeEnd": 104,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 104,
+      "rangeEnd": 106,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 106,
+      "rangeEnd": 108,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 108,
+      "rangeEnd": 110,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 110,
+      "rangeEnd": 112,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 112,
+      "rangeEnd": 114,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 114,
+      "rangeEnd": 116,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 116,
+      "rangeEnd": 118,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 118,
+      "rangeEnd": 120,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 120,
+      "rangeEnd": 122,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 122,
+      "rangeEnd": 124,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 124,
+      "rangeEnd": 126,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 126,
+      "rangeEnd": 128,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 128,
+      "rangeEnd": 130,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 130,
+      "rangeEnd": 132,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 132,
+      "rangeEnd": 134,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 134,
+      "rangeEnd": 136,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 136,
+      "rangeEnd": 138,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 138,
+      "rangeEnd": 140,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 140,
+      "rangeEnd": 142,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 142,
+      "rangeEnd": 144,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 144,
+      "rangeEnd": 146,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 146,
+      "rangeEnd": 148,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 148,
+      "rangeEnd": 150,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 150,
+      "rangeEnd": 152,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 152,
+      "rangeEnd": 154,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 154,
+      "rangeEnd": 156,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 156,
+      "rangeEnd": 158,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 158,
+      "rangeEnd": 160,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 160,
+      "rangeEnd": 162,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 162,
+      "rangeEnd": 164,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 164,
+      "rangeEnd": 166,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 166,
+      "rangeEnd": 168,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 168,
+      "rangeEnd": 170,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 170,
+      "rangeEnd": 172,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 172,
+      "rangeEnd": 174,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 174,
+      "rangeEnd": 176,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 176,
+      "rangeEnd": 178,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 178,
+      "rangeEnd": 180,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 180,
+      "rangeEnd": 182,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 182,
+      "rangeEnd": 184,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 184,
+      "rangeEnd": 186,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 186,
+      "rangeEnd": 188,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 188,
+      "rangeEnd": 190,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 190,
+      "rangeEnd": 192,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 192,
+      "rangeEnd": 194,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 194,
+      "rangeEnd": 196,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 196,
+      "rangeEnd": 198,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 198,
+      "rangeEnd": 200,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 200,
+      "rangeEnd": 202,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 202,
+      "rangeEnd": 204,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 204,
+      "rangeEnd": 206,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 206,
+      "rangeEnd": 208,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 208,
+      "rangeEnd": 210,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 210,
+      "rangeEnd": 212,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 212,
+      "rangeEnd": 214,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 214,
+      "rangeEnd": 216,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 216,
+      "rangeEnd": 218,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 218,
+      "rangeEnd": 220,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 220,
+      "rangeEnd": 222,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 222,
+      "rangeEnd": 224,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 224,
+      "rangeEnd": 226,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 226,
+      "rangeEnd": 228,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 228,
+      "rangeEnd": 230,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 230,
+      "rangeEnd": 232,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 232,
+      "rangeEnd": 234,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 234,
+      "rangeEnd": 236,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 236,
+      "rangeEnd": 238,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 238,
+      "rangeEnd": 240,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 240,
+      "rangeEnd": 242,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 242,
+      "rangeEnd": 244,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 244,
+      "rangeEnd": 246,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 246,
+      "rangeEnd": 248,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 248,
+      "rangeEnd": 250,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 250,
+      "rangeEnd": 252,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 252,
+      "rangeEnd": 254,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 254,
+      "rangeEnd": 256,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 256,
+      "rangeEnd": 258,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 258,
+      "rangeEnd": 260,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 260,
+      "rangeEnd": 262,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 262,
+      "rangeEnd": 264,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 264,
+      "rangeEnd": 266,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 266,
+      "rangeEnd": 268,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 268,
+      "rangeEnd": 270,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 270,
+      "rangeEnd": 272,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 272,
+      "rangeEnd": 274,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 274,
+      "rangeEnd": 276,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 276,
+      "rangeEnd": 278,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 278,
+      "rangeEnd": 280,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 280,
+      "rangeEnd": 282,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 282,
+      "rangeEnd": 284,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 284,
+      "rangeEnd": 286,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 286,
+      "rangeEnd": 288,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 288,
+      "rangeEnd": 290,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 290,
+      "rangeEnd": 292,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 292,
+      "rangeEnd": 294,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 294,
+      "rangeEnd": 296,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 296,
+      "rangeEnd": 298,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 298,
+      "rangeEnd": 300,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 300,
+      "rangeEnd": 302,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 302,
+      "rangeEnd": 304,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 304,
+      "rangeEnd": 306,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 306,
+      "rangeEnd": 308,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 308,
+      "rangeEnd": 310,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 310,
+      "rangeEnd": 312,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 312,
+      "rangeEnd": 314,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 314,
+      "rangeEnd": 316,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 316,
+      "rangeEnd": 318,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 318,
+      "rangeEnd": 320,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 320,
+      "rangeEnd": 322,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 322,
+      "rangeEnd": 324,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 324,
+      "rangeEnd": 326,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 326,
+      "rangeEnd": 328,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 328,
+      "rangeEnd": 330,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 330,
+      "rangeEnd": 332,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 332,
+      "rangeEnd": 334,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 334,
+      "rangeEnd": 336,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 336,
+      "rangeEnd": 338,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 338,
+      "rangeEnd": 340,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 340,
+      "rangeEnd": 342,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 342,
+      "rangeEnd": 344,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 344,
+      "rangeEnd": 346,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 346,
+      "rangeEnd": 348,
+      "between": {
+        "dayStart": 1,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 348,
+      "rangeEnd": 350,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 350,
+      "rangeEnd": 352,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 352,
+      "rangeEnd": 354,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 354,
+      "rangeEnd": 356,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 356,
+      "rangeEnd": 358,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 358,
+      "rangeEnd": 360,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 360,
+      "rangeEnd": 362,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 362,
+      "rangeEnd": 364,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 364,
+      "rangeEnd": 366,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 366,
+      "rangeEnd": 368,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 368,
+      "rangeEnd": 370,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 370,
+      "rangeEnd": 372,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 372,
+      "rangeEnd": 374,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 374,
+      "rangeEnd": 376,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 376,
+      "rangeEnd": 378,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 378,
+      "rangeEnd": 380,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 380,
+      "rangeEnd": 382,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 382,
+      "rangeEnd": 384,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 384,
+      "rangeEnd": 386,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 386,
+      "rangeEnd": 388,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 388,
+      "rangeEnd": 390,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 390,
+      "rangeEnd": 392,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 392,
+      "rangeEnd": 394,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 394,
+      "rangeEnd": 396,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 396,
+      "rangeEnd": 398,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 398,
+      "rangeEnd": 400,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 400,
+      "rangeEnd": 402,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 402,
+      "rangeEnd": 404,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 404,
+      "rangeEnd": 406,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 406,
+      "rangeEnd": 408,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 408,
+      "rangeEnd": 410,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 410,
+      "rangeEnd": 412,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 412,
+      "rangeEnd": 414,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 414,
+      "rangeEnd": 416,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 416,
+      "rangeEnd": 418,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 418,
+      "rangeEnd": 420,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 420,
+      "rangeEnd": 422,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 422,
+      "rangeEnd": 424,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 424,
+      "rangeEnd": 426,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 426,
+      "rangeEnd": 428,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 428,
+      "rangeEnd": 430,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 430,
+      "rangeEnd": 432,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 432,
+      "rangeEnd": 434,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 434,
+      "rangeEnd": 436,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 436,
+      "rangeEnd": 438,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 438,
+      "rangeEnd": 440,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 440,
+      "rangeEnd": 442,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 442,
+      "rangeEnd": 444,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 444,
+      "rangeEnd": 446,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 446,
+      "rangeEnd": 448,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 448,
+      "rangeEnd": 450,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 450,
+      "rangeEnd": 452,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 452,
+      "rangeEnd": 454,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 454,
+      "rangeEnd": 456,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 456,
+      "rangeEnd": 458,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 458,
+      "rangeEnd": 460,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 460,
+      "rangeEnd": 462,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 462,
+      "rangeEnd": 464,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 464,
+      "rangeEnd": 466,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 466,
+      "rangeEnd": 468,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 468,
+      "rangeEnd": 470,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 470,
+      "rangeEnd": 472,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 472,
+      "rangeEnd": 474,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 474,
+      "rangeEnd": 476,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 476,
+      "rangeEnd": 478,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 478,
+      "rangeEnd": 480,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 480,
+      "rangeEnd": 482,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 482,
+      "rangeEnd": 484,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 484,
+      "rangeEnd": 486,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 486,
+      "rangeEnd": 488,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 488,
+      "rangeEnd": 490,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 490,
+      "rangeEnd": 492,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 492,
+      "rangeEnd": 494,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 494,
+      "rangeEnd": 496,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 496,
+      "rangeEnd": 498,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 498,
+      "rangeEnd": 500,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 500,
+      "rangeEnd": 502,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 502,
+      "rangeEnd": 504,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 504,
+      "rangeEnd": 506,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 506,
+      "rangeEnd": 508,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 508,
+      "rangeEnd": 510,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 510,
+      "rangeEnd": 512,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 512,
+      "rangeEnd": 514,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 514,
+      "rangeEnd": 516,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 516,
+      "rangeEnd": 518,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 518,
+      "rangeEnd": 520,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 520,
+      "rangeEnd": 522,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 522,
+      "rangeEnd": 524,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 524,
+      "rangeEnd": 526,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 526,
+      "rangeEnd": 528,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 528,
+      "rangeEnd": 530,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 530,
+      "rangeEnd": 532,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 532,
+      "rangeEnd": 534,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 534,
+      "rangeEnd": 536,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 536,
+      "rangeEnd": 538,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 538,
+      "rangeEnd": 540,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 540,
+      "rangeEnd": 542,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 542,
+      "rangeEnd": 544,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 544,
+      "rangeEnd": 546,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 546,
+      "rangeEnd": 548,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 548,
+      "rangeEnd": 550,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 550,
+      "rangeEnd": 552,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 552,
+      "rangeEnd": 554,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 554,
+      "rangeEnd": 556,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 556,
+      "rangeEnd": 558,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 558,
+      "rangeEnd": 560,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 560,
+      "rangeEnd": 562,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 562,
+      "rangeEnd": 564,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 564,
+      "rangeEnd": 566,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 566,
+      "rangeEnd": 568,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 568,
+      "rangeEnd": 570,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 570,
+      "rangeEnd": 572,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 572,
+      "rangeEnd": 574,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 574,
+      "rangeEnd": 576,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 576,
+      "rangeEnd": 578,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 578,
+      "rangeEnd": 580,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 580,
+      "rangeEnd": 582,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 582,
+      "rangeEnd": 584,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 584,
+      "rangeEnd": 586,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 586,
+      "rangeEnd": 588,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 588,
+      "rangeEnd": 590,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 590,
+      "rangeEnd": 592,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 592,
+      "rangeEnd": 594,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 594,
+      "rangeEnd": 596,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 596,
+      "rangeEnd": 598,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 598,
+      "rangeEnd": 600,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 600,
+      "rangeEnd": 602,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 602,
+      "rangeEnd": 604,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 604,
+      "rangeEnd": 606,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 606,
+      "rangeEnd": 608,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 608,
+      "rangeEnd": 610,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 610,
+      "rangeEnd": 612,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 612,
+      "rangeEnd": 614,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 614,
+      "rangeEnd": 616,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 616,
+      "rangeEnd": 618,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 618,
+      "rangeEnd": 620,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 620,
+      "rangeEnd": 622,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 622,
+      "rangeEnd": 624,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 624,
+      "rangeEnd": 626,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 626,
+      "rangeEnd": 628,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 628,
+      "rangeEnd": 630,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 630,
+      "rangeEnd": 632,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 632,
+      "rangeEnd": 634,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 634,
+      "rangeEnd": 636,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 636,
+      "rangeEnd": 638,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 638,
+      "rangeEnd": 640,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 640,
+      "rangeEnd": 642,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 642,
+      "rangeEnd": 644,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 644,
+      "rangeEnd": 646,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 646,
+      "rangeEnd": 648,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 648,
+      "rangeEnd": 650,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 650,
+      "rangeEnd": 652,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 652,
+      "rangeEnd": 654,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 654,
+      "rangeEnd": 656,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 656,
+      "rangeEnd": 658,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 658,
+      "rangeEnd": 660,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 660,
+      "rangeEnd": 662,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 662,
+      "rangeEnd": 664,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 664,
+      "rangeEnd": 666,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 666,
+      "rangeEnd": 668,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 668,
+      "rangeEnd": 670,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 670,
+      "rangeEnd": 672,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 672,
+      "rangeEnd": 674,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 674,
+      "rangeEnd": 676,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 676,
+      "rangeEnd": 678,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 678,
+      "rangeEnd": 680,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 680,
+      "rangeEnd": 682,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 682,
+      "rangeEnd": 684,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 684,
+      "rangeEnd": 686,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 686,
+      "rangeEnd": 688,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 688,
+      "rangeEnd": 690,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 690,
+      "rangeEnd": 692,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 692,
+      "rangeEnd": 694,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 694,
+      "rangeEnd": 696,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 696,
+      "rangeEnd": 698,
+      "between": {
+        "dayStart": 2,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 698,
+      "rangeEnd": 700,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 700,
+      "rangeEnd": 702,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 702,
+      "rangeEnd": 704,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 704,
+      "rangeEnd": 706,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 706,
+      "rangeEnd": 708,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 708,
+      "rangeEnd": 710,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 710,
+      "rangeEnd": 712,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 712,
+      "rangeEnd": 714,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 714,
+      "rangeEnd": 716,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 716,
+      "rangeEnd": 718,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 718,
+      "rangeEnd": 720,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 720,
+      "rangeEnd": 722,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 722,
+      "rangeEnd": 724,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 724,
+      "rangeEnd": 726,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 726,
+      "rangeEnd": 728,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 728,
+      "rangeEnd": 730,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 730,
+      "rangeEnd": 732,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 732,
+      "rangeEnd": 734,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 734,
+      "rangeEnd": 736,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 736,
+      "rangeEnd": 738,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 738,
+      "rangeEnd": 740,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 740,
+      "rangeEnd": 742,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 742,
+      "rangeEnd": 744,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 744,
+      "rangeEnd": 746,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 746,
+      "rangeEnd": 748,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 748,
+      "rangeEnd": 750,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 750,
+      "rangeEnd": 752,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 752,
+      "rangeEnd": 754,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 754,
+      "rangeEnd": 756,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 756,
+      "rangeEnd": 758,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 758,
+      "rangeEnd": 760,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 760,
+      "rangeEnd": 762,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 762,
+      "rangeEnd": 764,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 764,
+      "rangeEnd": 766,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 766,
+      "rangeEnd": 768,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 768,
+      "rangeEnd": 770,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 770,
+      "rangeEnd": 772,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 772,
+      "rangeEnd": 774,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 774,
+      "rangeEnd": 776,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 776,
+      "rangeEnd": 778,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 778,
+      "rangeEnd": 780,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 780,
+      "rangeEnd": 782,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 5
+      }
+    },
+    {
+      "rangeStart": 782,
+      "rangeEnd": 784,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 784,
+      "rangeEnd": 786,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 786,
+      "rangeEnd": 788,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 788,
+      "rangeEnd": 790,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 790,
+      "rangeEnd": 792,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 792,
+      "rangeEnd": 794,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 794,
+      "rangeEnd": 796,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 6
+      }
+    },
+    {
+      "rangeStart": 796,
+      "rangeEnd": 798,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 798,
+      "rangeEnd": 800,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 800,
+      "rangeEnd": 802,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 802,
+      "rangeEnd": 804,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 804,
+      "rangeEnd": 806,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 806,
+      "rangeEnd": 808,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 808,
+      "rangeEnd": 810,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 7
+      }
+    },
+    {
+      "rangeStart": 810,
+      "rangeEnd": 812,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 812,
+      "rangeEnd": 814,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 814,
+      "rangeEnd": 816,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 816,
+      "rangeEnd": 818,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 818,
+      "rangeEnd": 820,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 820,
+      "rangeEnd": 822,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 822,
+      "rangeEnd": 824,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 8
+      }
+    },
+    {
+      "rangeStart": 824,
+      "rangeEnd": 826,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 826,
+      "rangeEnd": 828,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 828,
+      "rangeEnd": 830,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 830,
+      "rangeEnd": 832,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 832,
+      "rangeEnd": 834,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 834,
+      "rangeEnd": 836,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 836,
+      "rangeEnd": 838,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 9
+      }
+    },
+    {
+      "rangeStart": 838,
+      "rangeEnd": 840,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 840,
+      "rangeEnd": 842,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 842,
+      "rangeEnd": 844,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 844,
+      "rangeEnd": 846,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 846,
+      "rangeEnd": 848,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 848,
+      "rangeEnd": 850,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 850,
+      "rangeEnd": 852,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 10
+      }
+    },
+    {
+      "rangeStart": 852,
+      "rangeEnd": 854,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 854,
+      "rangeEnd": 856,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 856,
+      "rangeEnd": 858,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 858,
+      "rangeEnd": 860,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 860,
+      "rangeEnd": 862,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 862,
+      "rangeEnd": 864,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 864,
+      "rangeEnd": 866,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 11
+      }
+    },
+    {
+      "rangeStart": 866,
+      "rangeEnd": 868,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 868,
+      "rangeEnd": 870,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 870,
+      "rangeEnd": 872,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 872,
+      "rangeEnd": 874,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 874,
+      "rangeEnd": 876,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 876,
+      "rangeEnd": 878,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 878,
+      "rangeEnd": 880,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 12
+      }
+    },
+    {
+      "rangeStart": 880,
+      "rangeEnd": 882,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 882,
+      "rangeEnd": 884,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 884,
+      "rangeEnd": 886,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 886,
+      "rangeEnd": 888,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 888,
+      "rangeEnd": 890,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 890,
+      "rangeEnd": 892,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 892,
+      "rangeEnd": 894,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 13
+      }
+    },
+    {
+      "rangeStart": 894,
+      "rangeEnd": 896,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 896,
+      "rangeEnd": 898,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 898,
+      "rangeEnd": 900,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 900,
+      "rangeEnd": 902,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 902,
+      "rangeEnd": 904,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 904,
+      "rangeEnd": 906,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 906,
+      "rangeEnd": 908,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 14
+      }
+    },
+    {
+      "rangeStart": 908,
+      "rangeEnd": 910,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 910,
+      "rangeEnd": 912,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 912,
+      "rangeEnd": 914,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 914,
+      "rangeEnd": 916,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 916,
+      "rangeEnd": 918,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 918,
+      "rangeEnd": 920,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 920,
+      "rangeEnd": 922,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 15
+      }
+    },
+    {
+      "rangeStart": 922,
+      "rangeEnd": 924,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 924,
+      "rangeEnd": 926,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 926,
+      "rangeEnd": 928,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 928,
+      "rangeEnd": 930,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 930,
+      "rangeEnd": 932,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 932,
+      "rangeEnd": 934,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 934,
+      "rangeEnd": 936,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 16
+      }
+    },
+    {
+      "rangeStart": 936,
+      "rangeEnd": 938,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 938,
+      "rangeEnd": 940,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 940,
+      "rangeEnd": 942,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 942,
+      "rangeEnd": 944,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 944,
+      "rangeEnd": 946,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 946,
+      "rangeEnd": 948,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 948,
+      "rangeEnd": 950,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 17
+      }
+    },
+    {
+      "rangeStart": 950,
+      "rangeEnd": 952,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 952,
+      "rangeEnd": 954,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 954,
+      "rangeEnd": 956,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 956,
+      "rangeEnd": 958,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 958,
+      "rangeEnd": 960,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 960,
+      "rangeEnd": 962,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 962,
+      "rangeEnd": 964,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 18
+      }
+    },
+    {
+      "rangeStart": 964,
+      "rangeEnd": 966,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 966,
+      "rangeEnd": 968,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 968,
+      "rangeEnd": 970,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 970,
+      "rangeEnd": 972,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 972,
+      "rangeEnd": 974,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 974,
+      "rangeEnd": 976,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 976,
+      "rangeEnd": 978,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 19
+      }
+    },
+    {
+      "rangeStart": 978,
+      "rangeEnd": 980,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 980,
+      "rangeEnd": 982,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 982,
+      "rangeEnd": 984,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 984,
+      "rangeEnd": 986,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 986,
+      "rangeEnd": 988,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 988,
+      "rangeEnd": 990,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 990,
+      "rangeEnd": 992,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 20
+      }
+    },
+    {
+      "rangeStart": 992,
+      "rangeEnd": 994,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 994,
+      "rangeEnd": 996,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 996,
+      "rangeEnd": 998,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 998,
+      "rangeEnd": 1000,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 1000,
+      "rangeEnd": 1002,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 1002,
+      "rangeEnd": 1004,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 1004,
+      "rangeEnd": 1006,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 21
+      }
+    },
+    {
+      "rangeStart": 1006,
+      "rangeEnd": 1008,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 1008,
+      "rangeEnd": 1010,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 1010,
+      "rangeEnd": 1012,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 1012,
+      "rangeEnd": 1014,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 1014,
+      "rangeEnd": 1016,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 1016,
+      "rangeEnd": 1018,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 1018,
+      "rangeEnd": 1020,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 22
+      }
+    },
+    {
+      "rangeStart": 1020,
+      "rangeEnd": 1022,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 1022,
+      "rangeEnd": 1024,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 1024,
+      "rangeEnd": 1026,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 1026,
+      "rangeEnd": 1028,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 1028,
+      "rangeEnd": 1030,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 1030,
+      "rangeEnd": 1032,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 1032,
+      "rangeEnd": 1034,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 23
+      }
+    },
+    {
+      "rangeStart": 1034,
+      "rangeEnd": 1036,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 1036,
+      "rangeEnd": 1038,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 1038,
+      "rangeEnd": 1040,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 1040,
+      "rangeEnd": 1042,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 1042,
+      "rangeEnd": 1044,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 1044,
+      "rangeEnd": 1046,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 1046,
+      "rangeEnd": 1048,
+      "between": {
+        "dayStart": 3,
+        "hourStart": 24
+      }
+    },
+    {
+      "rangeStart": 1048,
+      "rangeEnd": 1050,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 1050,
+      "rangeEnd": 1052,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 1052,
+      "rangeEnd": 1054,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 1054,
+      "rangeEnd": 1056,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 1056,
+      "rangeEnd": 1058,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 1058,
+      "rangeEnd": 1060,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 1060,
+      "rangeEnd": 1062,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 0
+      }
+    },
+    {
+      "rangeStart": 1062,
+      "rangeEnd": 1064,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 1064,
+      "rangeEnd": 1066,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 1066,
+      "rangeEnd": 1068,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 1068,
+      "rangeEnd": 1070,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 1070,
+      "rangeEnd": 1072,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 1072,
+      "rangeEnd": 1074,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 1074,
+      "rangeEnd": 1076,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 1
+      }
+    },
+    {
+      "rangeStart": 1076,
+      "rangeEnd": 1078,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 1078,
+      "rangeEnd": 1080,
+      "between": {
+        "dayStart": 5,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 1080,
+      "rangeEnd": 1082,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 1082,
+      "rangeEnd": 1084,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 1084,
+      "rangeEnd": 1086,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 1086,
+      "rangeEnd": 1088,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 1088,
+      "rangeEnd": 1090,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 2
+      }
+    },
+    {
+      "rangeStart": 1090,
+      "rangeEnd": 1092,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 1092,
+      "rangeEnd": 1094,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 1094,
+      "rangeEnd": 1096,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 1096,
+      "rangeEnd": 1098,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 1098,
+      "rangeEnd": 1100,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 1100,
+      "rangeEnd": 1102,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 1102,
+      "rangeEnd": 1104,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 3
+      }
+    },
+    {
+      "rangeStart": 1104,
+      "rangeEnd": 1106,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 1106,
+      "rangeEnd": 1108,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 4
+      }
+    },
+    {
+      "rangeStart": 1108,
+      "rangeEnd": 1110,
+      "between": {
+        "dayStart": 4,
+        "hourStart": 4
+      }
+    }
+  ]
+}

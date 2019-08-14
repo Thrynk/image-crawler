@@ -25,7 +25,7 @@ const TOKEN_PATH = 'token.json';
  * @param {function} callback The callback to call with the authorized client.
  */
 module.exports = {
-     authorize: function(credentials, callback) {
+     authorize: function(credentials, callback, brokenImgs) {
         const {client_secret, client_id, redirect_uris} = credentials.installed;
         const oAuth2Client = new google.auth.OAuth2(
             client_id, client_secret, redirect_uris[0]);
@@ -38,7 +38,7 @@ module.exports = {
         });*/
         let token = require("./token");
          oAuth2Client.setCredentials(token);
-         callback(oAuth2Client);
+         callback(oAuth2Client, brokenImgs);
     }
 
 }

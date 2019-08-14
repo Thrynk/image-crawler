@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
-    "dev" : "nodemon --exec \"node -r dotenv/config\" index.js"
+    "dev": "nodemon --exec \"node -r dotenv/config\" index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Thrynk/image-crawler#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "cli-progress": "^2.1.1",
     "googleapis": "^39.2.0",
     "request": "^2.88.0",
     "sitemapper": "^2.2.0",
