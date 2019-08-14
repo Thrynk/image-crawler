@@ -127,7 +127,8 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
 
     }
     else{
-        fs.writeFileSync("ExcelInfo.json", JSON.stringify({
+        console.log(__dirname + "/ExcelInfo.json");
+        fs.writeFileSync(__dirname + "/ExcelInfo.json", JSON.stringify({
             lastSiteTreated : ExcelInfo.lastSiteTreated + 2
         }));
 
