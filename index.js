@@ -80,8 +80,9 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
 
     let k = ExcelInfo.lastSiteTreated;
     let brokenImgUrlsLink = new Array();
-    console.log(sites.sites[k]);
+
     for(let i = 0; i < 2; i++) {
+        console.log(sites.sites[k+i]);
         if (sites.sites[k+i]) {
             let imgUrls = await imgsUrlCrawler(sites.sites[k+i]).catch(function (error) {
                 console.log("Error getting img urls");
@@ -110,25 +111,20 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
             console.log("Site Url invalid for request" + sites.sites[k]);
         }
     }
-    brokenImgUrlLinksSiteWide = brokenImgUrlLinksSiteWide.concat([1]);
     spreadSheetAPI.authorize(credentials, writeInSpreadsheet, brokenImgUrlLinksSiteWide);
-    if(brokenImgUrlLinksSiteWide.length !== 0){
-        if(ExcelInfo.lastSiteTreated === 1100){
-            fs.WriteFile("ExcelInfo.json", JSON.stringify({
-                lastSiteTreated : 0
-            }), function(err){
-                if(err) console.log(err);
-            });
-        }
-        else{
-            fs.WriteFile("ExcelInfo.json", JSON.stringify({
-                lastSiteTreated : ExcelInfo.lastSiteTreated + 2
-            }), function(err){
-                if(err) console.log(err);
-            });
-        }
 
+    if(ExcelInfo.lastSiteTreated === 1100) {
+        fs.WriteFileSync("ExcelInfo.json", JSON.stringify({
+            lastSiteTreated: 0
+        }));
     }
+    else{
+        fs.WriteFileSync("ExcelInfo.json", JSON.stringify({
+            lastSiteTreated : ExcelInfo.lastSiteTreated + 2
+        }));
+    }
+
+
 
 });
 
