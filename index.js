@@ -112,16 +112,24 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
         }
     }
     spreadSheetAPI.authorize(credentials, writeInSpreadsheet, brokenImgUrlLinksSiteWide);
-
+    console.log("ExcelInfo.json");
     if(ExcelInfo.lastSiteTreated === 1100) {
-        fs.WriteFileSync(__dirname + "/ExcelInfo.json", JSON.stringify({
-            lastSiteTreated: 0
-        }));
+        fs.writeFile("ExcelInfo.json", JSON.stringify({
+            lastSiteTreated : 0
+        }), function(err){
+            if(err) console.log(err);
+            else console.log("File ExcelInfo saved");
+        });
+
     }
     else{
-        fs.WriteFileSync(__dirname + "/ExcelInfo.json", JSON.stringify({
+        fs.writeFile("ExcelInfo.json", JSON.stringify({
             lastSiteTreated : ExcelInfo.lastSiteTreated + 2
-        }));
+        }), function(err){
+            if(err) console.log(err);
+            else console.log("File ExcelInfo saved");
+        });
+
     }
 
 
