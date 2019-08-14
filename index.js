@@ -117,8 +117,12 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
         fs.writeFile("ExcelInfo.json", JSON.stringify({
             lastSiteTreated : 0
         }), function(err){
-            if(err) console.log(err);
-            else console.log("File ExcelInfo saved");
+            if(err){
+                console.log(err);
+            }
+            else{
+                console.log("File ExcelInfo saved");
+            }
         });
 
     }
@@ -126,8 +130,12 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
         fs.writeFile("ExcelInfo.json", JSON.stringify({
             lastSiteTreated : ExcelInfo.lastSiteTreated + 2
         }), function(err){
-            if(err) console.log(err);
-            else console.log("File ExcelInfo saved");
+            if(err){
+                console.log(err);
+            }
+            else{
+                console.log("File ExcelInfo saved");
+            }
         });
 
     }
