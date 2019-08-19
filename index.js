@@ -3,6 +3,7 @@ const imgsUrlCrawler = require("./imgsUrl");
 const request = require("request");
 const {google} = require('googleapis');
 const fs = require("fs");
+const path = require("path");
 
 function testImgStatus(imgUrl){
     return new Promise(function(resolve, reject){
@@ -112,9 +113,9 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
         }
     }
     spreadSheetAPI.authorize(credentials, writeInSpreadsheet, brokenImgUrlLinksSiteWide);
-    console.log("ExcelInfo.json");
+    console.log(path.resolve(__dirname, "ExcelInfo.json"));
     if(ExcelInfo.lastSiteTreated === 1100) {
-        fs.writeFile("ExcelInfo.json", JSON.stringify({
+        fs.writeFile(path.resolve(__dirname, "ExcelInfo.json"), JSON.stringify({
             lastSiteTreated : 0
         }), function(err){
             if(err){
@@ -127,8 +128,8 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
 
     }
     else{
-        console.log(__dirname + "/ExcelInfo.json");
-        fs.writeFileSync(__dirname + "/ExcelInfo.json", JSON.stringify({
+        console.log(path.resolve(__dirname, "ExcelInfo.json"));
+        fs.writeFileSync(path.resolve(__dirname, "ExcelInfo.json"), JSON.stringify({
             lastSiteTreated : ExcelInfo.lastSiteTreated + 2
         }));
 
