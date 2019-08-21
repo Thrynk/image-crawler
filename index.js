@@ -52,7 +52,7 @@ console.log(path.resolve(__dirname, "ExcelInfo.json"));
 let ExcelInfo = JSON.parse(fs.readFileSync(path.resolve(__dirname, "ExcelInfo.json"), "utf8"));
 console.log(ExcelInfo.lastSiteTreated);
 
-let scheduleObj = JSON.parse(fs.readFileSync(path.resolve(__dirname, "schedule.json"), "utf8"));
+/*let scheduleObj = JSON.parse(fs.readFileSync(path.resolve(__dirname, "schedule.json"), "utf8"));
 
 let execution = scheduleObj.schedule.find(function(range){
     return range.rangeStart === ExcelInfo.lastSiteTreated;
@@ -60,7 +60,7 @@ let execution = scheduleObj.schedule.find(function(range){
 
 let now = new Date();
 console.log(now.getUTCDay());
-if(now.getUTCDay() === execution.between.dayStart){
+if(now.getUTCDay() === execution.between.dayStart){*/
     /*if(now.getUTCHours() === execution.between.hourStart){
         console.log("go for it");
     }
@@ -68,11 +68,11 @@ if(now.getUTCDay() === execution.between.dayStart){
         console.log("not the right hour");
         process.exit();
     }*/
-}
+/*}
 else {
     console.log("not the right day");
     process.exit();
-}
+}*/
 
 let brokenImgUrlLinksSiteWide = new Array();
 var sitemap = new Sitemapper();
