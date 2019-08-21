@@ -82,9 +82,9 @@ var sitemap = new Sitemapper();
 sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xml').then(async function (sites) {
 
     let k = ExcelInfo.lastSiteTreated;
-    let brokenImgUrlsLink = new Array();
 
     for(let i = 0; i < 2; i++) {
+        let brokenImgUrlsLink = new Array();
         console.log(sites.sites[k+i]);
         if (sites.sites[k+i]) {
             let imgUrls = await imgsUrlCrawler(sites.sites[k+i]).catch(function (error) {
