@@ -48,11 +48,11 @@ const _cliProgress = require('cli-progress');
 
 // create a new progress bar instance and use shades_classic theme
 const bar1 = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
-
-let ExcelInfo = JSON.parse(fs.readFileSync("ExcelInfo.json", "utf8"));
+console.log(path.resolve(__dirname, "ExcelInfo.json"));
+let ExcelInfo = JSON.parse(fs.readFileSync(path.resolve(__dirname, "ExcelInfo.json"), "utf8"));
 console.log(ExcelInfo.lastSiteTreated);
 
-let scheduleObj = JSON.parse(fs.readFileSync("schedule.json", "utf8"));
+let scheduleObj = JSON.parse(fs.readFileSync(path.resolve(__dirname, "schedule.json"), "utf8"));
 
 let execution = scheduleObj.schedule.find(function(range){
     return range.rangeStart === ExcelInfo.lastSiteTreated;
