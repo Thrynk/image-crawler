@@ -86,7 +86,7 @@ sitemap.fetch('https://www.decathlon.co.uk/content/sitemaps/NavigationSitemap.xm
     for(let i = 0; i < 2; i++) {
         let brokenImgUrlsLink = new Array();
         console.log(sites.sites[k+i]);
-        if (sites.sites[k+i]) {
+        if (sites.sites[k+i] && sites.sites[k+i].match(/decathon.co.uk\//)) {
             let imgUrls = await imgsUrlCrawler(sites.sites[k+i]).catch(function (error) {
                 console.log("Error getting img urls");
                 console.log(error);
